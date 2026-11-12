@@ -1,0 +1,19 @@
+[package]
+name = "homer-ui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+homer-core.workspace = true
+homer-storage.workspace = true
+homer-inference.workspace = true
+gpui.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+async-channel.workspace = true
+uuid.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+unicode-segmentation = "1"

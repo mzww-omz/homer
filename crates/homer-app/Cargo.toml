@@ -1,0 +1,19 @@
+[package]
+name = "homer-app"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "homer"
+path = "src/main.rs"
+
+[dependencies]
+homer-core.workspace = true
+homer-storage.workspace = true
+homer-inference.workspace = true
+homer-ui.workspace = true
+gpui.workspace = true
+tokio.workspace = true
+async-channel.workspace = true
